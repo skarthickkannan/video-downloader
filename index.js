@@ -12,6 +12,6 @@ const user_context = {
 
 const twitterClient = new TwitterApi(user_context);
 
-await twitterClient.v1.tweet('hello bot');
+await twitterClient.v1.tweet('storing token ');
 
 
